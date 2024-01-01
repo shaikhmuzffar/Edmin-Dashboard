@@ -64,9 +64,8 @@
     <!-- main  -->
     <main>
         <div class="w-10/12  mx-auto grid grid-cols-12 mt-[60px] gap-8">
-
             <!-- sidebar -->
-            <div class="col-span-3 border flex flex-col gap-5 ">
+            <div class="col-span-3 sticky h-fit top-3 border flex flex-col gap-5 ">
 
                 <!-- sidebar row 1 -->
                 <div class="flex flex-col gap-[1px]">
@@ -163,7 +162,7 @@
             </div>
 
             <!-- content -->
-            <div class="col-span-9 border">
+            <div class="col-span-9 ">
                 <!-- user Greeting -->
                 <div>
                     <h1 class="font-light text-mediumBlue text-3xl">Welcome Back, Muzzu!</h1>
@@ -242,7 +241,7 @@
                     <!-- dashboard row 2 -->
                     <div class="grid grid-cols-12 gap-5 mt-5">
                         <!-- survey Analysis -->
-                        <div class="col-span-8  flex flex-col gap-5 px-5 py-4 bg-white rounded-lg shadow-xl ">
+                        <div class="col-span-8 h-fit flex flex-col gap-5 px-5 py-4 bg-white rounded-lg shadow-xl ">
                             <!-- title, legends and selection  -->
                             <div class="flex justify-between items-center">
 
@@ -287,18 +286,145 @@
 
                         <!-- team analytic -->
                         <div class="col-span-4  flex flex-col gap-5 px-5 py-4 bg-white rounded-lg shadow-xl ">
-                            <!-- title and more info  -->
-                            <div class="flex justify-between items-center">
-                                <span class="font-extrabold">Team Analytic</span>
-                                <img src="images/moreIcon.svg"
-                                    class="h-1 w-4 object-contain opacity-25 hover:opacity-50 transition-opacity duration-100 ease-in cursor-pointer"
-                                    alt="">
+                            <div class="flex flex-col gap-3">
+                                <!-- title and more info  -->
+                                <div class="flex justify-between items-center">
+                                    <span class="font-extrabold">Team Analytic</span>
+                                    <img src="images/moreIcon.svg"
+                                        class="h-1 w-4 object-contain opacity-25 hover:opacity-50 transition-opacity duration-100 ease-in cursor-pointer"
+                                        alt="">
+                                </div>
+
+                                <!-- tabs  -->
+                                <div class="flex justify-between items-center bg-[#EFEFF0] py-1 px-1 rounded-lg">
+                                    <button
+                                        class="bg-white py-1 h-[30px] px-7 text-xs font-bold rounded-md ">Absent</button>
+                                    <button class=" py-1 h-[30px] px-5 text-xs font-bold rounded-md ">Remote
+                                        work</button>
+                                </div>
+                            </div>
+
+                            <!-- team members  -->
+                            <div class="flex flex-col gap-3">
+                                <!-- single team member -->
+                                <div class="flex items-center justify-between">
+                                    <div class="flex items-center gap-3">
+                                        <!-- team member img  -->
+                                        <img class="h-10 w-10 object-contain" src="images/teamMem1.png" alt="">
+                                        <!-- team member name  -->
+                                        <div>
+                                            <h1 class="text-sm leading-3 font-extrabold">Jhon Doe</h1>
+                                            <span class="text-[12px] leading-3 font-bold opacity-75">Sickness</span>
+                                        </div>
+                                    </div>
+
+                                    <!-- dates  -->
+                                    <div>
+                                        <h1 class="text-[12px] leading-3 font-extrabold">1st - 3rd</h1>
+                                        <span class="text-[12px] leading-3 font-bold opacity-75">Jan 2024</span>
+                                    </div>
+
+
+                                </div>
+                                <!-- single team member -->
+                                <div class="flex items-center justify-between">
+                                    <div class="flex items-center gap-3">
+                                        <!-- team member img  -->
+                                        <img class="h-10 w-10 object-contain" src="images/teamMem2.png" alt="">
+                                        <!-- team member name  -->
+                                        <div>
+                                            <h1 class="text-sm leading-3 font-extrabold">Tom Hall</h1>
+                                            <span class="text-[12px] leading-3 font-bold opacity-75">Sickness</span>
+                                        </div>
+                                    </div>
+
+                                    <!-- dates  -->
+                                    <div>
+                                        <h1 class="text-[12px] leading-3 font-extrabold">1st - 3rd</h1>
+                                        <span class="text-[12px] leading-3 font-bold opacity-75">Jan 2024</span>
+                                    </div>
+
+
+                                </div>
+                                <!-- single team member -->
+                                <div class="flex items-center justify-between">
+                                    <div class="flex items-center gap-3">
+                                        <!-- team member img  -->
+                                        <img class="h-10 w-10 object-contain" src="images/teamMem3.png" alt="">
+                                        <!-- team member name  -->
+                                        <div>
+                                            <h1 class="text-sm leading-3 font-extrabold">Jenna Thomas</h1>
+                                            <span class="text-[12px] leading-3 font-bold opacity-75">Sickness</span>
+                                        </div>
+                                    </div>
+
+                                    <!-- dates  -->
+                                    <div>
+                                        <h1 class="text-[12px] leading-3 font-extrabold">1st - 3rd</h1>
+                                        <span class="text-[12px] leading-3 font-bold opacity-75">Jan 2024</span>
+                                    </div>
+
+
+                                </div>
+                                <!-- single team member -->
+                                <div class="flex items-center justify-between">
+                                    <div class="flex items-center gap-3">
+                                        <!-- team member img  -->
+                                        <img class="h-10 w-10 object-contain" src="images/teamMem4.png" alt="">
+                                        <!-- team member name  -->
+                                        <div>
+                                            <h1 class="text-sm leading-3 font-extrabold">Dan cooper</h1>
+                                            <span class="text-[12px] leading-3 font-bold opacity-75">Sickness</span>
+                                        </div>
+                                    </div>
+
+                                    <!-- dates  -->
+                                    <div>
+                                        <h1 class="text-[12px] leading-3 font-extrabold">1st - 3rd</h1>
+                                        <span class="text-[12px] leading-3 font-bold opacity-75">Jan 2024</span>
+                                    </div>
+
+
+                                </div>
                             </div>
                         </div>
 
                     </div>
 
+                    <!-- dashboard row3 -->
+                    <div class="grid grid-cols-12 gap-5 mt-5">
+                        <div class="col-span-12 h-fit flex flex-col gap-5 px-5 py-4 bg-white rounded-lg shadow-xl ">
+                            <!-- title, legends and selection  -->
+                            <div class="flex justify-between items-center">
+
+                                <!-- title -->
+                                <span class="font-extrabold">Survey analysis</span>
+
+                                <!-- legends -->
+                                <div class="flex gap-3">
+                                    <!-- export -->
+                                    <div
+                                        class="flex items-center gap-1 px-[8px] py-1 bg-darkGreen bg-opacity-10 rounded-[4px] cursor-pointer">
+
+                                        <img class="h-2 w-2 object-contain" src="images/exportIcon.png" alt="">
+                                        <span class="text-[8px] font-semibold">Export</span>
+                                    </div>
+                                    <!-- share -->
+                                    <div
+                                        class="flex items-center gap-1 px-[8px] py-1 bg-darkGreen bg-opacity-10 rounded-[4px] cursor-pointer">
+
+                                        <img class="h-2 w-2 object-contain" src="images/shareIcon.png" alt="">
+                                        <span class="text-[8px] font-semibold">Share</span>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
                 </div>
+
+            </div>
     </main>
 </body>
 
